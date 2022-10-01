@@ -1,3 +1,3 @@
-export interface ICreateInventoryResponses {
+export interface ICreateInventoryResponse {
 	id: string;
 }

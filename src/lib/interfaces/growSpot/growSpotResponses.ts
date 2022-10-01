@@ -1,3 +1,3 @@
-export interface ICreateGrowSpotResponses {
+export interface ICreateGrowSpotResponse {
 	id: string;
 }

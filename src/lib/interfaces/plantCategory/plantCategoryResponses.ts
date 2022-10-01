@@ -1,3 +1,3 @@
-export interface ICreatePlantCategoryResponses {
+export interface ICreatePlantCategoryResponse {
 	id: string;
 }

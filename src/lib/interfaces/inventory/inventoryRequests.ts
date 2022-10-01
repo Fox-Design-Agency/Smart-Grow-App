@@ -1,3 +1,3 @@
-export interface ICreateInventoryRequests {
+export interface ICreateInventoryRequest {
 	id: string;
 }
