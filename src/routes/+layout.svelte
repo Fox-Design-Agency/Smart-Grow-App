@@ -1,14 +1,13 @@
 <script lang="ts">
 	import '../tailwind.css';
 	import { onMount } from 'svelte';
-	import TopAppBar, { Row, Section, Title, AutoAdjust } from '@smui/top-app-bar';
+	import TopAppBar, { Row, Section, AutoAdjust } from '@smui/top-app-bar';
+	import type { TopAppBarComponentDev } from '@smui/top-app-bar';
 	import IconButton, { Icon } from '@smui/icon-button';
 	import { mdiMenu, mdiWeatherNight, mdiWeatherSunny } from '@mdi/js';
 	import { Svg } from '@smui/common/elements';
 
-	// should be type TopAppBarComponentDev, but throwing
-	// console error currently, so leaving off
-	let topAppBar;
+	let topAppBar: TopAppBarComponentDev;
 
 	// TODO, moving to a user settings, leaving here for easy
 	// switching and checking of styles

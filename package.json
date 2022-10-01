@@ -8,7 +8,6 @@
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"smui-theme-light": "smui-theme compile static/smui.css -i src/theme",
 		"smui-theme-dark": "smui-theme compile static/smui-dark.css -i src/theme/dark",
