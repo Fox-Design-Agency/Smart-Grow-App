@@ -18,9 +18,16 @@ TODO
 
 ## Getting Started
 
+This application requires that certain ENVIRONMENT variables be set. Create a .env file with the following values:
+
+- PUBLIC_API_URL="localhost:9001"
+- PUBLIC_ENVIRONMENT="local"
+
 ### Running Locally
 
     npm i
+
+    npm run prepare
 
     npm run dev
 
