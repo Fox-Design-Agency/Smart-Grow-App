@@ -1,38 +1,26 @@
-# create-svelte
+# Totally Legit Grow App
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is the base frontend application for the Total Legit Grow Management system.
 
-## Creating a project
+## Table of Contents
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Running Locally](#running-locally)
+- [Notes](#notes)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Overview
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+TODO
 
-## Developing
+## Getting Started
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Running Locally
 
-```bash
-npm run dev
+    npm i
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+    npm run dev
 
-## Building
+## Notes
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+TODO
