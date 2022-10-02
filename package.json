@@ -16,7 +16,9 @@
 	"devDependencies": {
 		"@mdi/js": "^7.0.96",
 		"@smui/button": "^6.1.4",
+		"@smui/drawer": "^6.1.4",
 		"@smui/icon-button": "^6.1.4",
+		"@smui/list": "^6.1.4",
 		"@smui/top-app-bar": "^6.1.4",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-static": "^1.0.0-next.43",
