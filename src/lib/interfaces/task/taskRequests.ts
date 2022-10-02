@@ -2,6 +2,6 @@ export interface ICreateTaskRequest {
 	id: string;
 }
 
-export interface IDeleteTaskRequest {
+export interface IEditTaskRequest {
 	id: string;
 }
