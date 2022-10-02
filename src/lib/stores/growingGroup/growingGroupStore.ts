@@ -21,12 +21,17 @@ import type {
 
 export const CurrentGrowingGroup = writable<IGrowingGroup>(undefined);
 
-/**
+/*
  *
  *  START SERVICE FUNCTIONS
  *
  * */
 
+/**
+ * Creates a growing group.
+ * @param req ICreateGrowingGroupRequest
+ * @returns ICreateGrowingGroupResponse
+ */
 export async function CreateGrowingGroup(
 	req: ICreateGrowingGroupRequest
 ): Promise<ICreateGrowingGroupResponse | null> {
